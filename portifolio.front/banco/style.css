@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #186317;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img {
+    padding-left: 45.5%;
+    top: 5%;
+    position: absolute;
+}
+
+header p {
+    position: absolute;
+    padding-left: 86.5%;
+    top: 5.5%;
+    font-weight:700;
+}
+
+main {
+    padding: 20px;
+}
+
+.saldo-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#familia {
+    width: 400px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#familia:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.totais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publicidade {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.transacoes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.botoes button {
+    background-color: #186317;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pix-area {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tabs button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.tabs button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
